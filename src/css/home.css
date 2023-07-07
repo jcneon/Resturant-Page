@@ -1,0 +1,88 @@
+@import "./fonts/fonts.css";
+
+:root {
+  --color1: #e75874;
+  --color2: hsl(336, 80%, 41%);
+  --color3: #fbcbc9;
+  --color4: #322514;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-image: url(../assets/images/bg8.jpg);
+  background-size: cover;
+}
+
+.container {
+  background-color: hsla(0, 0%, 0%, 0.803);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem 0 5rem;
+  height: 9%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+#header-text {
+  font-family: "Lobster", cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+.home-body {
+  height: 91%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+.home-body p {
+  margin: 0;
+}
+
+#welcome {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+
+#eat-healthy {
+  font-size: 4rem;
+  font-family: "Domine", serif;
+}
+
+#about-us {
+  width: 90%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  width: 8rem;
+  padding: 0.6rem;
+}
+.buttons {
+  display: flex;
+  column-gap: 1rem;
+}
